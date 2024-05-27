@@ -1,4 +1,4 @@
-File Upload Board with Actix Web
+File Upload Board with Actix Web VASTLY BETTER THAN 1 AND 2
 
 This is a simple file upload board implemented using Actix Web in Rust. The application allows users to upload image and video files, which are then displayed on the main page. The files are sorted by their modification time, with the latest files appearing at the top.
 
