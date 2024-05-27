@@ -1,4 +1,4 @@
-#File Upload Board with Actix Web
+File Upload Board with Actix Web
 
 This is a simple file upload board implemented using Actix Web in Rust. The application allows users to upload image and video files, which are then displayed on the main page. The files are sorted by their modification time, with the latest files appearing at the top.
 
@@ -9,7 +9,7 @@ This is a simple file upload board implemented using Actix Web in Rust. The appl
 
 
 
-#Features
+Features
 File Upload: Supports uploading multiple files at once.
 File Types: Accepts image files (JPG, JPEG, PNG, GIF, WEBP) and video files (MP4, MP3, WEBM).
 File Size Limit: Restricts file uploads to a maximum size of 20MB.
