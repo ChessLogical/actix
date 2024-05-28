@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>File Upload</title>
+    <style>
+        body { background-color: #121212; color: #FFFFFF; font-family: Arial, sans-serif; }
+        .centered-form { display: flex; justify-content: center; margin-bottom: 20px; }
+        form { display: flex; flex-direction: column; width: 300px; }
+        input[type="text"] { width: 50%; }
+        textarea { height: 150px; }
+        .post { border-bottom: 5px solid #333333; padding: 10px 0; position: relative; }
+        .reply-button { position: absolute; top: 10px; right: 10px; background-color: #007bff; color: #ffffff; padding: 5px 10px; border-radius: 5px; text-decoration: none; cursor: pointer; }
+        .reply-button:hover { background-color: #0056b3; }
+        img, video { max-width: 200px; max-height: 200px; display: block; margin-bottom: 10px; }
+        .pagination { text-align: center; margin-top: 20px; }
+        .pagination a { color: #FFFFFF; padding: 5px 10px; text-decoration: none; border: 1px solid #FFFFFF; margin: 0 5px; }
+        .pagination a:hover { background-color: #444444; }
+        button { background-color: #007bff; color: #ffffff; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="centered-form">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="parent_id" value="0">
+            <input type="text" name="title" maxlength="20" placeholder="Title" required><br>
+            <textarea name="message" maxlength="40000" placeholder="Message" required></textarea><br>
+            <input type="file" name="file"><br>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+    {{POSTS}}
+    <div class="pagination">
+        {{PAGINATION}}
+    </div>
+</body>
+</html>
