@@ -1,0 +1,2 @@
+curl -H "Authorization: Basic YWRlbGlhMTQzOmFkZWxpYTE0Mw==" https://4chess.com/adelia
+

@@ -1,0 +1,6 @@
+Serve index.html at the root.
+Serve the existing board at /mod.
+Allow file uploads through the post form only.
+Display individual posts at /post/{id}.
+Serve static files from the ./static directory.
+rust
