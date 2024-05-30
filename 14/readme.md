@@ -1,0 +1,1 @@
+The start of one of the best imageboards in the world. Starting to get into elite level here. the sh file creates the mysql db, ads boards or deletes boards. Way more secure to not have that functionality avail from the browser. ADD or remove boards when the ib is powered off. Can run over 1000 boards at once with the hardware on my site. 
